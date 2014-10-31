@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require "upp"
+Upp::Editor.new(ARGV[0], :prompt => true)
